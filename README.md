@@ -33,4 +33,14 @@ La esp32 es la encargada de controlar el robot SCARA, esta contiene el código d
 </table>
 
 
+# Cinemática inversa
+Con la cinemática inversa, a partir de las coordenadas (x,y) se obtienen los ángulos Ɵ1 y Ɵ2, luego esos ángulos se traducen a pasos para que los motores realicen su trabajo. En el caso del eje que varía la altura se trata de manera separada, es decir no es incluido en los cálculos de cinemática inversa, ya que para el caso de robots de tipo SCARA no es necesario. 
 
+![Descripción de la imagen](Imagenes/3_Cinematica inversa.jpg)
+*Cinematica Inversa*
+
+
+<p align="center">
+  <img src="Imagenes/3_Cinematica inversa.jpg" alt="Descripción de la imagen" width="400">
+</p>
+<p align="center"><em>Cinemática inversa</em></p>
