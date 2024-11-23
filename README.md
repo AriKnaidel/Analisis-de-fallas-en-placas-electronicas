@@ -131,7 +131,7 @@ A continuación, muestro los diferentes elementos que componen al proyecto junto
 <p align="center"><em>Costos</em></p>
 
 
-#Conclusiones
+# Conclusiones
 
 El desarrollo de este dispositivo fue un desafío tanto técnico como personal, enfrentándome a diferentes obstáculos que requirieron de creatividad y perseverancia para ser superados. Cada etapa del proyecto planteo problemas únicos, como el diseño y la impresión 3D, la calibración de los motores, el desarrollo de código tanto en Python como Arduino, la calibración de la cámara para el análisis de imágenes. 
 Uno de los mayores desafíos fue el manejo del tiempo, ya que el proyecto implicó coordinar diferentes tareas independientes entre sí, como el diseño del robot, el desarrollo electrónico, la programación, entre otras tareas. El proyecto duró 3 veces más de lo planificado, principalmente debido a diferentes componentes electrónicos que se fueron dañando a lo largo del proyecto, a diferentes tecnologías que tuve que aprender a utilizar para poder aplicarlas de manera eficiente y a la limitación de tiempo debido a mis responsabilidades laborales. Esto representó un gran desafío, ya que debía equilibrar mi trabajo con el avance del proyecto.
