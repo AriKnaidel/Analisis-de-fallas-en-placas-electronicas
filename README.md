@@ -52,6 +52,7 @@ tita1G=tita1R*(180/3.1416);
 ```
 Las formulas anteriores se obtuvieron mediante el método geométrico, a continuación, el desarrollo:
 
+
 <p align="center">
   <img src="Imagenes/8_Ecuaciones.jpg" alt="Descripción de la imagen" width="400">
 </p>
