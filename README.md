@@ -18,6 +18,7 @@ Para controlar el robot SCARA se diseñó una placa electrónica mediante el sof
 La esp32 es la encargada de controlar el robot SCARA, esta contiene el código desarrollado en el Arduino IDE, y es capaz de realizar todos los cálculos de la cinemática inversa para que los motores giren la cantidad de grados necesarios y se posicionen en las ubicaciones correctas realizando todos los movimientos al mismo tiempo. Ejecuta la rutina de Home antes de cada movimiento de medición en la placa. Realiza las mediciones de continuidad en dicha placa, gracias al efector del robot. Y también sensa los finales de carrera presentes en el robot para evitar colisiones.
 
 ![](Imagenes/1_Scara_proyecto.jpg "Robot SCARA")
+
 *Robot SCARA*
 
 
