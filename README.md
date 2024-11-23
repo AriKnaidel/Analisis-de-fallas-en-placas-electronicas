@@ -91,4 +91,10 @@ import threading
 from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QLabel, QHBoxLayout, QVBoxLayout, QSpacerItem, QSizePolicy, QFrame
 from PyQt5.QtCore import Qt, QTimer
 from PyQt5.QtGui import QPixmap, QImage
+#Comunicacion con el arduino Mega (Base porta placa y elevador)
+arduino = serial.Serial('COM5', 9600)
+#Comunicacion con la ESP32 (Robot SCARA)
+time.sleep(2)  # Espera un poco para la inicialización del Arduino
+esp32 = serial.Serial('COM3', 9600)
+time.sleep(2)
 ```
