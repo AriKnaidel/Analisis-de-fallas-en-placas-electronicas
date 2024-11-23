@@ -92,6 +92,7 @@ from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QLabel, QHBoxLay
 from PyQt5.QtCore import Qt, QTimer
 from PyQt5.QtGui import QPixmap, QImage
 ```
+A continuacion se detallan fragmentos del codigo en python, donde muestran los comnados utilizados para establecer la comunicacion serial entre el Arduino Mega y la ESP32.
 ```python
 #Comunicacion con el arduino Mega (Base porta placa y elevador)
 arduino = serial.Serial('COM5', 9600)
