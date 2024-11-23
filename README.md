@@ -57,3 +57,11 @@ Las formulas anteriores se obtuvieron mediante el método geométrico, a continu
   <img src="Imagenes/8_Ecuaciones.jpg" alt="Descripción de la imagen" width="400">
 </p>
 <p align="center"><em>Metodo geométrico</em></p>
+
+# Base porta placa
+En esta base se coloca manualmente la placa a testear. Está formada por 6 elementos impresos en 3D, acoplados al eje de un motor nema 17 que es el encargado de hacerla girar, y un final de carrera óptico que se utiliza para posicionar la placa en el punto óptimo para que la cámara tome la foto para su posterior análisis. Es necesario que la placa gire ya que se analizará tanto el lado de la placa que posee los componentes electrónicos como el lado de las soldaduras.
+
+<p align="center">
+  <img src="Imagenes/4_Base.jpeg" alt="Descripción de la imagen" width="400">
+</p>
+<p align="center"><em>Base porta placa</em></p>
