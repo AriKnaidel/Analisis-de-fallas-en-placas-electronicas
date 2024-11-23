@@ -129,3 +129,11 @@ A continuación, muestro los diferentes elementos que componen al proyecto junto
   <img src="Imagenes/6_Costos.jpg" alt="Descripción de la imagen" width="400">
 </p>
 <p align="center"><em>Costos</em></p>
+
+
+#Conclusiones
+
+El desarrollo de este dispositivo fue un desafío tanto técnico como personal, enfrentándome a diferentes obstáculos que requirieron de creatividad y perseverancia para ser superados. Cada etapa del proyecto planteo problemas únicos, como el diseño y la impresión 3D, la calibración de los motores, el desarrollo de código tanto en Python como Arduino, la calibración de la cámara para el análisis de imágenes. 
+Uno de los mayores desafíos fue el manejo del tiempo, ya que el proyecto implicó coordinar diferentes tareas independientes entre sí, como el diseño del robot, el desarrollo electrónico, la programación, entre otras tareas. El proyecto duró 3 veces más de lo planificado, principalmente debido a diferentes componentes electrónicos que se fueron dañando a lo largo del proyecto, a diferentes tecnologías que tuve que aprender a utilizar para poder aplicarlas de manera eficiente y a la limitación de tiempo debido a mis responsabilidades laborales. Esto representó un gran desafío, ya que debía equilibrar mi trabajo con el avance del proyecto.
+También voy a destacar que fue necesario enfrentar limitaciones de recursos, optimizando el uso de materiales y herramientas disponibles, y recurrir a soluciones creativas para problemas inesperados, como la adaptación de un celular como cámara o la fabricación artesanal de la placa electrónica de control del robot SCARA.
+El proyecto no solo logró cumplir con los objetivos planteados, sino que también se convirtió en una valiosa experiencia de aprendizaje de 653hs, abarcando áreas fundamentales como la robótica, la electrónica y la programación. Estos conocimientos son esenciales para el desarrollo profesional de un ingeniero, y este proyecto me permitió consolidar esas habilidades clave y profundizar en la integración de las mismas.
