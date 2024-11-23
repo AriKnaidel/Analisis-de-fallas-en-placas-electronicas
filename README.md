@@ -65,3 +65,12 @@ En esta base se coloca manualmente la placa a testear. Está formada por 6 eleme
   <img src="Imagenes/4_Base.jpeg" alt="Descripción de la imagen" width="400">
 </p>
 <p align="center"><em>Base porta placa</em></p>
+
+# Elevador
+Este dispositivo será el encargado de portar la cámara (utilicé un celular Samsung A54 como cámara) que analizará los componentes electrónicos y las soldaduras de estaño de las placas. Es necesario colocar dicha cámara en este sistema elevador ya que, al realizar la medición con el brazo robótico sobre la placa, este colisionaría con la cámara, por lo tanto, antes de que el robot se posiciones sobre los puntos de testeo de la placa, la cámara es elevada para evitar riesgos de colisión y una vez finalizada la medición del robot y que este vuelve a la posición de seguridad, la cámara baja y se ubica en su posición inicial. 
+Este elevador está formado por dos varillas de 6mm de diámetro, y mediante bujes en esas varillas se acopla el carro que contiene la cámara, acoplado a ese carro hay una correa dentada la cual a uno de sus extremos se le acopla un motor nema 17 y en el otro una polea, por lo tanto, al girar el motor la cámara sube o baja. Dicho sistema cuenta también con un final de carrera mecánico que hace que la cámara se posicione a la altura correcta para tomar la foto de la placa para su posterior análisis.
+
+<p align="center">
+  <img src="Imagenes/5_ascensor.jpeg" alt="Descripción de la imagen" width="400">
+</p>
+<p align="center"><em>Elevador porta cámara</em></p>
