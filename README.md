@@ -40,3 +40,17 @@ Con la cinemática inversa, a partir de las coordenadas (x,y) se obtienen los á
   <img src="Imagenes/3_Cinematica inversa.jpg" alt="Descripción de la imagen" width="400">
 </p>
 <p align="center"><em>Cinemática inversa</em></p>
+
+
+
+```cpp
+// Código de ejemplo en Arduino
+void setup() {
+  Serial.begin(9600);
+}
+
+void loop() {
+  Serial.println("Hola, Mundo!");
+  delay(1000);
+}```
+´´´
