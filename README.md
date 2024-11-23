@@ -51,3 +51,8 @@ tita1R=atan(x/y) -(atan((L2*sin(tita2R)) /(L1+(L2*cos(tita2R)))));
 tita1G=tita1R*(180/3.1416);
 ```
 Las formulas anteriores se obtuvieron mediante el método geométrico, a continuación, el desarrollo:
+
+<p align="center">
+  <img src="Imagenes/8_Ecuaciones.jpg" alt="Descripción de la imagen" width="400">
+</p>
+<p align="center"><em>Metodo geométrico</em></p>
