@@ -50,3 +50,17 @@ La esp32 es la encargada de controlar el robot SCARA, esta contiene el código d
   </tr>
 </table>
 
+
+<table>
+  <tr>
+    <td style="text-align: center;">
+      <img src="Imagenes/1_Scara_proyecto.jpg" alt="Descripción de la imagen 1" width="200">
+      <p><em>Robot SCARA</em></p>
+    </td>
+    <td style="text-align: center;">
+      <img src="Imagenes/2_PCB_proyecto.png" alt="Descripción de la imagen 2" width="200">
+      <p><em>Controlador Robot SCARA</em></p>
+    </td>
+  </tr>
+</table>
+
