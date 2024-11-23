@@ -18,6 +18,11 @@ Dicho robot está formado por tres mecanismos móviles (la base, el brazo, regul
 
 Para controlar el robot SCARA se diseñó una placa electrónica mediante el software PROTEUS, luego ese diseño fue impreso en una hoja transfer para transferir las pistas a la placa de cobre y posteriormente se utilizó cloruro férrico para eliminar el cobre y obtener el diseño útil sobre la placa. A dicha placa se le acoplo una esp32, 3 drivers A4988, y borneras para utilizar los pines como entradas o salidas de la esp32. 
 
+<p align="center">
+  <img src="Imagenes/10_Esquematico_conexion.jpg" alt="Descripción de la imagen" width="400">
+</p>
+<p align="center"><em>Esquematico conexion robot</em></p>
+
 La esp32 es la encargada de controlar el robot SCARA, esta contiene el código desarrollado en el Arduino IDE, y es capaz de realizar todos los cálculos de la cinemática inversa para que los motores giren la cantidad de grados necesarios y se posicionen en las ubicaciones correctas realizando todos los movimientos al mismo tiempo. Ejecuta la rutina de Home antes de cada movimiento de medición en la placa. Realiza las mediciones de continuidad en dicha placa, gracias al efector del robot. Y también sensa los finales de carrera presentes en el robot para evitar colisiones.
 
 
