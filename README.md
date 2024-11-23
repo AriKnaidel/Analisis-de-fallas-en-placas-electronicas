@@ -1,7 +1,8 @@
 
 ![Descripción de la imagen](Imagenes/7_Unlz_logo.jpg)
 
-  # Análisis de fallas en placas electrónicas
+# Análisis de fallas en placas electrónicas
+<h1 align="center">Análisis de fallas en placas electrónicas</h1>
 
 
 # Detalle del trabajo realizado
