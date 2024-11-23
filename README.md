@@ -49,5 +49,5 @@ tita2R=acos((pow(x,2) +pow(y,2)-pow(L1,2)-pow(L2,2))/((long)2*L1*L2));
 tita2G=tita2R*(180/3.1416);
 tita1R=atan(x/y) -(atan((L2*sin(tita2R)) /(L1+(L2*cos(tita2R)))));
 tita1G=tita1R*(180/3.1416);
-
 ```
+Las formulas anteriores se obtuvieron mediante el método geométrico, a continuación, el desarrollo:
