@@ -91,10 +91,29 @@ import threading
 from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QLabel, QHBoxLayout, QVBoxLayout, QSpacerItem, QSizePolicy, QFrame
 from PyQt5.QtCore import Qt, QTimer
 from PyQt5.QtGui import QPixmap, QImage
+```
+```python
 #Comunicacion con el arduino Mega (Base porta placa y elevador)
 arduino = serial.Serial('COM5', 9600)
 #Comunicacion con la ESP32 (Robot SCARA)
 time.sleep(2)  # Espera un poco para la inicialización del Arduino
 esp32 = serial.Serial('COM3', 9600)
 time.sleep(2)
+
+def send_command(command):
+    """Envía un comando al Arduino y espera la respuesta."""
+    arduino.write(command.encode())  # Enviar el comando
+    time.sleep(0.2)  # Breve espera para la transmisión
+
+def send_com_esp(command):
+    """Envía un comando a la ESP32 y espera la respuesta."""
+    esp32.write(command.encode())  # Enviar el comando
+    time.sleep(0.1)
+
+    while True:
+        if esp32.in_waiting > 0:  # Verifica si hay datos disponibles
+            respuesta = esp32.readline().decode('utf-8').strip()  # Lee y decodifica la respuesta
+            return respuesta  # Retorna la respuesta
+    return "No se recibió respuesta de la ESP32"
+
 ```
