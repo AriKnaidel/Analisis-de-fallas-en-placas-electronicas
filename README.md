@@ -41,22 +41,13 @@ Con la cinemática inversa, a partir de las coordenadas (x,y) se obtienen los á
 </p>
 <p align="center"><em>Cinemática inversa</em></p>
 
-
+Para el cálculo de los ángulos Ɵ1 y Ɵ2 se utilizaron las siguientes ecuaciones, y luego se pasó el valor en radianes a grados. 
 
 ```cpp
-// Código de ejemplo en Arduino
-void setup() {
-  Serial.begin(9600);
-}
+// Calculo de ängulos
+tita2R=acos((pow(x,2) +pow(y,2)-pow(L1,2)-pow(L2,2))/((long)2*L1*L2));
+tita2G=tita2R*(180/3.1416);
+tita1R=atan(x/y) -(atan((L2*sin(tita2R)) /(L1+(L2*cos(tita2R)))));
+tita1G=tita1R*(180/3.1416);
 
-void loop() {
-  Serial.println("Hola, Mundo!");
-  delay(1000);
-}```cpp
-´´´cpp
-dggdgd
-
-
-gcng
-**```
-fhf
+```
