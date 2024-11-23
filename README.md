@@ -79,3 +79,16 @@ Tanto la base porta placa como el elevador están controlados mediante un Arduin
 
 # Integración de los mecanismos
 Si bien cada mecanismo nombrado anteriormente (Robot SCARA, base porta placa y el elevador) cuentan con un sistema de control propio, es necesario que actúen de manera sincronizada. Para esto se desarrolló una aplicación con PYTHON, la cual hace que cada mecanismo se sincronice y actúe en el momento adecuado para lograr de manera efectiva el testeo de las diferentes placas electrónicas. Dicha aplicación se ejecutará en una computadora y tanto el controlador del robot (esp32), como el controlador de la base y el elevador (Arduino Mega) se conectarán a la computadora mediante los puertos seriales, la aplicación será la encargada de enviar y recibir las diferentes señales tanto a la esp32 como al Arduino para que los mecanismos realicen los movimientos correspondientes. También esta aplicación será la encargada de recibir las imágenes que toma la cámara y procesarlas para detectar los faltantes de los componentes electrónicos o errores en la soldadura. Antes de realizar la detección en las placas es necesario etiquetar lo que el sistema tiene que detectar, esto lo hice tomando fotos de cada componente individualmente y de las soldaduras erróneas y luego cargándolo al código de la aplicación. Para la captura de imágenes utilicé la aplicación IRIUM, instalada tanto en el celular como en la computadora, ambos dispositivos deben estar conectados a la misma red wifi. De esta manera, y con la ayuda de la librería “Open cv” se pueden realizar capturas de video o imágenes para su posterior análisis. 
+
+```python
+import cv2
+import numpy as np
+import serial
+import time
+#Interfaz grafica
+import sys
+import threading
+from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QLabel, QHBoxLayout, QVBoxLayout, QSpacerItem, QSizePolicy, QFrame
+from PyQt5.QtCore import Qt, QTimer
+from PyQt5.QtGui import QPixmap, QImage
+```
