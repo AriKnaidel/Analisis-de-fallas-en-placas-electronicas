@@ -131,6 +131,8 @@ A continuación, muestro los diferentes elementos que componen al proyecto junto
 <p align="center"><em>Costos</em></p>
 
 
+
+  
 # Conclusiones
 
 El desarrollo de este dispositivo fue un desafío tanto técnico como personal, enfrentándome a diferentes obstáculos que requirieron de creatividad y perseverancia para ser superados. Cada etapa del proyecto planteo problemas únicos, como el diseño y la impresión 3D, la calibración de los motores, el desarrollo de código tanto en Python como Arduino, la calibración de la cámara para el análisis de imágenes. 
